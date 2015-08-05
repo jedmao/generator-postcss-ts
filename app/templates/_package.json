@@ -16,13 +16,16 @@
     "tap-spec": "^2.2.2",
     "tape": "^3.5.0"
   },
-  "homepage": "https://github.com/<%= githubName %>/<%= pluginName %>",
+  "homepage": "https://github.com/<%= githubName %>/<%= pluginName %>#readme",
   "author": {
     "name": "<%= authorName %>",
     "email": "<%= authorEmail %>",
     "url": "<%= authorUrl %>"
   },
-  "repository": "<%= githubName %>/<%= pluginName %>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<%= githubName %>/<%= pluginName %>.git"
+  },
   "dependencies": {
     "postcss": "^4.1.11"
   }
